@@ -1,0 +1,322 @@
+[
+  {
+    "slug": "s7-reev",
+    "nombre": "S7 REEV",
+    "categoriaEs": "Eléctrico de rango extendido",
+    "categoriaEn": "Extended-Range Electric Vehicle",
+    "imagenPrincipal": "/assets/models/s7-reev-hero.webp",
+    "imagenTarjeta": "/assets/models/s7-reev-card.webp",
+    "esloganEs": "Elegancia aerodinámica con propulsión eléctrica extendida.",
+    "esloganEn": "Aerodynamic elegance with extended-range electric drive.",
+    "descripcionEs": "Sedán eléctrico de rango extendido con motor trasero de 154 kW, batería LFP de 28.4 kWh y generador a combustión para máxima autonomía sin límites.",
+    "descripcionEn": "Extended-range electric sedan featuring a 154 kW rear motor, 28.4 kWh LFP battery pack and on-board generator for limitless journey capability.",
+    "atributosEs": [
+      {
+        "titulo": "Motor eléctrico trasero de 154 kW",
+        "subtitulo": "Tracción trasera (RWD) con 310 Nm de torque instantáneo.",
+        "icono": "zap"
+      },
+      {
+        "titulo": "Batería LFP de 28.4 kWh",
+        "subtitulo": "Tecnología de fosfato de hierro y litio con soporte de carga rápida DC.",
+        "icono": "battery"
+      },
+      {
+        "titulo": "Generador Mach Power 1.5 L",
+        "subtitulo": "Extensor de rango a combustión eficiente para viajes de larga distancia.",
+        "icono": "gauge"
+      },
+      {
+        "titulo": "Seguridad y confort integral",
+        "subtitulo": "Airbags frontales, laterales y cortinas con control de tracción y estabilidad.",
+        "icono": "shield"
+      }
+    ],
+    "atributosEn": [
+      {
+        "titulo": "154 kW rear electric motor",
+        "subtitulo": "Rear-wheel drive (RWD) delivering 310 Nm of instant torque.",
+        "icono": "zap"
+      },
+      {
+        "titulo": "28.4 kWh LFP battery pack",
+        "subtitulo": "Lithium iron phosphate technology supporting fast DC charging.",
+        "icono": "battery"
+      },
+      {
+        "titulo": "1.5L Mach Power generator",
+        "subtitulo": "Efficient on-board range extender for worry-free long-distance travel.",
+        "icono": "gauge"
+      },
+      {
+        "titulo": "Comprehensive safety & comfort",
+        "subtitulo": "Front, side and curtain airbags with traction and stability control.",
+        "icono": "shield"
+      }
+    ],
+    "fichaTecnicaUrl": "https://drive.google.com/file/d/1fHfzj9zrIKU6_wms7XKe6k98OxYdcaZL/view?usp=drive_link",
+    "sitioOficialUrl": "https://forthing.com.ar/",
+    "activo": true,
+    "orden": 1,
+    "heroPositionDesktop": "center center",
+    "heroPositionMobile": "center center",
+    "heroScaleDesktop": "1.0",
+    "heroScaleMobile": "1.0"
+  },
+  {
+    "slug": "v9-phev",
+    "nombre": "V9 HEV",
+    "categoriaEs": "MPV híbrida HEV",
+    "categoriaEn": "Luxury Hybrid MPV",
+    "imagenPrincipal": "/assets/models/v9-phev-hero.webp",
+    "imagenTarjeta": "/assets/models/v9-phev-card.webp",
+    "esloganEs": "Confort ejecutivo para siete pasajeros.",
+    "esloganEn": "Executive comfort for seven passengers.",
+    "descripcionEs": "MPV híbrida HEV de siete asientos (2+2+3), con motor 1.5 turbo, potencia combinada de 252 hp y batería de 2 kWh.",
+    "descripcionEn": "Seven-seat (2+2+3) HEV hybrid MPV with a 1.5-liter turbo engine, 252 hp combined output and a 2 kWh battery.",
+    "atributosEs": [
+      {
+        "titulo": "7 asientos en disposición 2+2+3",
+        "subtitulo": "Segunda fila con ajuste eléctrico, ventilación, calefacción y masaje.",
+        "icono": "armchair"
+      },
+      {
+        "titulo": "252 hp de potencia combinada",
+        "subtitulo": "Motor 1.5 turbo y motor eléctrico de tracción con potencia máxima de 130 kW.",
+        "icono": "zap"
+      },
+      {
+        "titulo": "Batería HEV de 2 kWh",
+        "subtitulo": "Batería de litio ternaria con refrigeración líquida.",
+        "icono": "battery"
+      },
+      {
+        "titulo": "Tres pantallas de 12,3 pulgadas",
+        "subtitulo": "Instrumentos, pantalla central y pantalla del pasajero; incluye crucero adaptativo.",
+        "icono": "cpu"
+      }
+    ],
+    "atributosEn": [
+      {
+        "titulo": "Seven seats in a 2+2+3 layout",
+        "subtitulo": "Power-adjustable second-row seats with ventilation, heating and massage.",
+        "icono": "armchair"
+      },
+      {
+        "titulo": "252 hp combined output",
+        "subtitulo": "1.5-liter turbo engine and traction motor rated at up to 130 kW.",
+        "icono": "zap"
+      },
+      {
+        "titulo": "2 kWh HEV battery",
+        "subtitulo": "Liquid-cooled ternary lithium battery.",
+        "icono": "battery"
+      },
+      {
+        "titulo": "Three 12.3-inch displays",
+        "subtitulo": "Instrument cluster, center screen and passenger display; adaptive cruise control included.",
+        "icono": "cpu"
+      }
+    ],
+    "fichaTecnicaUrl": "https://drive.google.com/file/d/1fq0zzzcbjnpa_rawsmgaZmG5uZju6f1j/view?usp=drive_link",
+    "sitioOficialUrl": "https://forthing.com.ar/",
+    "activo": true,
+    "orden": 2,
+    "heroPositionDesktop": "center center",
+    "heroPositionMobile": "center center",
+    "heroScaleDesktop": "1.0",
+    "heroScaleMobile": "1.0"
+  },
+  {
+    "slug": "t5-hev",
+    "nombre": "T5 HEV",
+    "categoriaEs": "SUV híbrida HEV",
+    "categoriaEn": "Hybrid HEV SUV",
+    "imagenPrincipal": "/assets/models/t5-hev-hero.webp",
+    "imagenTarjeta": "/assets/models/t5-hev-card.webp",
+    "esloganEs": "Eficiencia híbrida con estilo y poder.",
+    "esloganEn": "Hybrid efficiency with style and power.",
+    "descripcionEs": "Una SUV híbrida inteligente que combina un motor turbo a gasolina y un motor eléctrico con diseño moderno, confort premium y equipamiento de alto nivel.",
+    "descripcionEn": "An intelligent hybrid SUV combining a turbo gasoline engine and electric motor with modern styling, premium comfort and high-end equipment.",
+    "atributosEs": [
+      {
+        "titulo": "252 hp de potencia combinada",
+        "subtitulo": "Motor turbo a gasolina y motor eléctrico de alto rendimiento.",
+        "icono": "zap"
+      },
+      {
+        "titulo": "Doble pantalla interactiva de 10,25”",
+        "subtitulo": "Panel digital panorámico con conectividad multimedia avanzada.",
+        "icono": "cpu"
+      },
+      {
+        "titulo": "8 airbags y seguridad avanzada",
+        "subtitulo": "Protección integral para todos los ocupantes.",
+        "icono": "shield"
+      },
+      {
+        "titulo": "Confort premium",
+        "subtitulo": "Masaje, ventilación y calefacción en los asientos.",
+        "icono": "armchair"
+      }
+    ],
+    "atributosEn": [
+      {
+        "titulo": "252 hp combined output",
+        "subtitulo": "Turbo gasoline engine and high-efficiency electric motor.",
+        "icono": "zap"
+      },
+      {
+        "titulo": "Dual 10.25” interactive displays",
+        "subtitulo": "Panoramic digital cockpit with advanced multimedia connectivity.",
+        "icono": "cpu"
+      },
+      {
+        "titulo": "8 airbags & advanced safety",
+        "subtitulo": "Comprehensive occupant protection systems.",
+        "icono": "shield"
+      },
+      {
+        "titulo": "Premium comfort",
+        "subtitulo": "Massage, ventilation and seat heating.",
+        "icono": "armchair"
+      }
+    ],
+    "fichaTecnicaUrl": "https://drive.google.com/file/d/1ssISOzhq2dpGpLRrTMTxL0ghRXQZcydm/view?usp=drive_link",
+    "sitioOficialUrl": "https://forthing.com.ar/modelos/t5-hev/",
+    "activo": true,
+    "orden": 3,
+    "heroPositionDesktop": "center center",
+    "heroPositionMobile": "center center",
+    "heroScaleDesktop": "1.0",
+    "heroScaleMobile": "1.0"
+  },
+  {
+    "slug": "friday-reev",
+    "nombre": "FRIDAY REEV",
+    "categoriaEs": "SUV eléctrica de rango extendido",
+    "categoriaEn": "Extended-Range Electric SUV",
+    "imagenPrincipal": "/assets/models/friday-reev-hero.webp",
+    "imagenTarjeta": "/assets/models/friday-reev-card.webp",
+    "esloganEs": "Tecnología eléctrica que eleva cada detalle.",
+    "esloganEn": "Electric technology elevating every detail.",
+    "descripcionEs": "Combina un motor 100% eléctrico con un generador a combustión para extender la autonomía y viajar sin depender exclusivamente de la carga externa.",
+    "descripcionEn": "Combines a 100% electric motor with a combustion generator to extend range and travel without relying solely on external charging.",
+    "atributosEs": [
+      {
+        "titulo": "Motor 100% eléctrico de 163 CV",
+        "subtitulo": "Aceleración instantánea y suavidad de marcha total.",
+        "icono": "zap"
+      },
+      {
+        "titulo": "Batería de 32 kWh",
+        "subtitulo": "Capacidad óptima con soporte de carga rápida.",
+        "icono": "battery"
+      },
+      {
+        "titulo": "Generador a combustión de 1.5 L",
+        "subtitulo": "Generación eficiente para extender la autonomía en ruta.",
+        "icono": "gauge"
+      },
+      {
+        "titulo": "Seguridad avanzada con 8 airbags y ADAS",
+        "subtitulo": "Asistencias inteligentes a la conducción para máxima protección.",
+        "icono": "shield"
+      }
+    ],
+    "atributosEn": [
+      {
+        "titulo": "100% electric 163 hp motor",
+        "subtitulo": "Instant torque and refined, whisper-quiet acceleration.",
+        "icono": "zap"
+      },
+      {
+        "titulo": "32 kWh battery pack",
+        "subtitulo": "Optimal capacity supporting fast charging.",
+        "icono": "battery"
+      },
+      {
+        "titulo": "1.5L combustion range extender",
+        "subtitulo": "Efficient on-board generator for worry-free highway travel.",
+        "icono": "gauge"
+      },
+      {
+        "titulo": "Advanced safety with 8 airbags & ADAS",
+        "subtitulo": "Intelligent active driver assistance and full protection.",
+        "icono": "shield"
+      }
+    ],
+    "fichaTecnicaUrl": "https://drive.google.com/file/d/1EK1L7eriW0uQ9FKTDgVUkqwZKCmPmOkU/view?usp=drive_link",
+    "sitioOficialUrl": "https://forthing.com.ar/friday/",
+    "activo": true,
+    "orden": 4,
+    "heroPositionDesktop": "center center",
+    "heroPositionMobile": "center center",
+    "heroScaleDesktop": "1.0",
+    "heroScaleMobile": "1.0"
+  },
+  {
+    "slug": "u-tour-hev",
+    "nombre": "U-TOUR HEV",
+    "categoriaEs": "MPV híbrida de lujo",
+    "categoriaEn": "Luxury Hybrid MPV",
+    "imagenPrincipal": "/assets/models/u-tour-hev-hero.webp",
+    "imagenTarjeta": "/assets/models/u-tour-hev-card.webp",
+    "esloganEs": "Un híbrido de lujo con 7 asientos.",
+    "esloganEn": "A luxury hybrid with 7 seats.",
+    "descripcionEs": "Combina la potencia de dos motores con espacio para siete pasajeros, confort premium y un completo paquete de seguridad y asistencias a la conducción.",
+    "descripcionEn": "Combines the power of two engines with seating for seven passengers, premium comfort and a comprehensive safety and ADAS package.",
+    "atributosEs": [
+      {
+        "titulo": "7 asientos de confort superior",
+        "subtitulo": "Distribución espaciosa y adaptable para toda la familia o traslados ejecutivos.",
+        "icono": "armchair"
+      },
+      {
+        "titulo": "252 hp de potencia combinada",
+        "subtitulo": "Respuesta enérgica con máxima eficiencia en consumo.",
+        "icono": "zap"
+      },
+      {
+        "titulo": "10 airbags y asistencias ADAS",
+        "subtitulo": "Paquete integral de seguridad activa y pasiva de última generación.",
+        "icono": "shield"
+      },
+      {
+        "titulo": "Capacidad de carga de 410 a 2.370 L",
+        "subtitulo": "Gran versatilidad de almacenamiento según configuración.",
+        "icono": "package"
+      }
+    ],
+    "atributosEn": [
+      {
+        "titulo": "7 luxury seating capacity",
+        "subtitulo": "Spacious, versatile cabin layout for executive and family transport.",
+        "icono": "armchair"
+      },
+      {
+        "titulo": "252 hp combined output",
+        "subtitulo": "Dynamic powertrain performance with class-leading fuel economy.",
+        "icono": "zap"
+      },
+      {
+        "titulo": "10 airbags & ADAS driver assist",
+        "subtitulo": "Next-generation active and passive comprehensive safety suite.",
+        "icono": "shield"
+      },
+      {
+        "titulo": "410 to 2,370 L cargo capacity",
+        "subtitulo": "Maximum luggage versatility for long trips and equipment.",
+        "icono": "package"
+      }
+    ],
+    "fichaTecnicaUrl": "https://drive.google.com/file/d/1tFNRbcRe3bll9CqDbiKDmS5NFZTTluZb/view?usp=drive_link",
+    "sitioOficialUrl": "https://forthing.com.ar/u-tour-hev/",
+    "activo": true,
+    "orden": 5,
+    "heroPositionDesktop": "center center",
+    "heroPositionMobile": "center center",
+    "heroScaleDesktop": "1.0",
+    "heroScaleMobile": "1.0"
+  }
+]
