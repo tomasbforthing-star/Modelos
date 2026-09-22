@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import { QRCodeSVG } from 'qrcode.react';
-import { X, Download, ExternalLink, QrCode, AlertTriangle } from 'lucide-react';
+import { X, Download, ExternalLink, QrCode, CheckCircle2, AlertTriangle } from 'lucide-react';
 import { ModelData } from '../types';
 import { useLanguage } from '../context/LanguageContext';
 
@@ -12,10 +12,9 @@ interface QrModalProps {
 
 /**
  * DEFINITIVE_PUBLIC_URL:
- * Set this once the public Vercel or custom domain URL is confirmed (e.g. 'https://forthing.vercel.app').
- * When empty, all generated QR codes will be flagged strictly as 'SOLO PARA PRUEBAS'.
+ * Configured production domain for official QR codes and print distribution.
  */
-export const DEFINITIVE_PUBLIC_URL: string = '';
+export const DEFINITIVE_PUBLIC_URL: string = 'https://modelos-forthing.vercel.app';
 
 export const QrModal: React.FC<QrModalProps> = ({ model, isOpen, onClose }) => {
   const { lang, t } = useLanguage();
@@ -46,12 +45,13 @@ export const QrModal: React.FC<QrModalProps> = ({ model, isOpen, onClose }) => {
     const ctx = canvas.getContext('2d');
     const img = new Image();
 
+    // 1200x1200px High-resolution master for offset and digital printing
     canvas.width = 1200;
     canvas.height = 1200;
 
     img.onload = () => {
       if (!ctx) return;
-      // White clean background
+      // Clean white background
       ctx.fillStyle = '#FFFFFF';
       ctx.fillRect(0, 0, 1200, 1200);
       
@@ -65,24 +65,24 @@ export const QrModal: React.FC<QrModalProps> = ({ model, isOpen, onClose }) => {
         ctx.fillText('CÓDIGO QR - SOLO PARA PRUEBAS (ENTORNO PROVISORIO)', 600, 44);
       }
 
-      // Draw QR code with padding
+      // Draw QR code with generous quiet-zone padding
       ctx.drawImage(img, 175, 120, 850, 850);
       
-      // Title header
+      // Model Title
       ctx.fillStyle = '#222223';
-      ctx.font = 'bold 38px Montserrat, sans-serif';
+      ctx.font = 'bold 42px Montserrat, sans-serif';
       ctx.textAlign = 'center';
-      ctx.fillText(`FORTHING ${model.nombre.toUpperCase()}`, 600, 1040);
+      ctx.fillText(`FORTHING ${model.nombre.toUpperCase()}`, 600, 1050);
 
-      // Subtitle with url
+      // Public URL
       ctx.fillStyle = '#75787B';
-      ctx.font = '22px Inter, sans-serif';
-      ctx.fillText(activeQrUrl, 600, 1085);
+      ctx.font = 'bold 24px Inter, sans-serif';
+      ctx.fillText(activeQrUrl, 600, 1105);
 
       if (isTestMode) {
         ctx.fillStyle = '#DD0A14';
         ctx.font = 'bold 20px Inter, sans-serif';
-        ctx.fillText('[ SOLO PARA PRUEBAS - NO APTO PARA IMPRENTA OFICIAL ]', 600, 1130);
+        ctx.fillText('[ SOLO PARA PRUEBAS - NO APTO PARA IMPRENTA OFICIAL ]', 600, 1145);
       }
 
       const a = document.createElement('a');
@@ -131,8 +131,13 @@ export const QrModal: React.FC<QrModalProps> = ({ model, isOpen, onClose }) => {
           {t('qrModal.desc')}
         </p>
 
-        {/* Test Mode Warning Badge */}
-        {isTestMode && (
+        {/* Status Badge */}
+        {isProductionConfigured ? (
+          <div className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-xs font-semibold mb-4">
+            <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />
+            <span>{t('qrModal.readyPrint')}</span>
+          </div>
+        ) : (
           <div className="flex items-center justify-center gap-2 p-3 bg-amber-500/10 border border-amber-500/30 rounded-xl text-amber-300 text-xs font-medium mb-4 text-left">
             <AlertTriangle className="w-5 h-5 text-amber-400 shrink-0" />
             <div>
@@ -164,7 +169,7 @@ export const QrModal: React.FC<QrModalProps> = ({ model, isOpen, onClose }) => {
         <div className="bg-[#2A2D30] rounded-lg p-2.5 mb-5 text-xs text-[#A0A3A6] font-mono break-all flex items-center justify-between gap-2 border border-[#3D4145]">
           <span className="truncate text-left text-white/90 font-medium">{activeQrUrl}</span>
           <a
-            href={`/modelos/${model.slug}`}
+            href={activeQrUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="text-[#DD0A14] hover:underline flex items-center gap-1 font-sans font-bold flex-shrink-0"
@@ -183,7 +188,7 @@ export const QrModal: React.FC<QrModalProps> = ({ model, isOpen, onClose }) => {
           <span>
             {isTestMode
               ? (lang === 'en' ? 'Download QR (Testing only)' : 'Descargar QR (Solo para pruebas)')
-              : t('qrModal.download')}
+              : (lang === 'en' ? 'Download Official Print QR' : 'Descargar QR Oficial (Alta Resolución)')}
           </span>
         </button>
       </div>
